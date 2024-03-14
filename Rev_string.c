@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
+int main() 
+{
     char str[] = "Hello, world!";
     int length = strlen(str);
 
-    for (int i = length - 1; i >= 0; i--) {
+    for (int i = length - 1; i >= 0; i--) 
+    {
         printf("%c", str[i]);
     }
 
